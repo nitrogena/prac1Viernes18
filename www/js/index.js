@@ -34,6 +34,10 @@ var app = {
                 }
             );
         });
+
+        document.getElementById("btnSumar").addEventListener("click", function(){
+            add();
+        });
     },
     onPause: function() {
         // Here, we check to see if we are in the middle of taking a picture. If
